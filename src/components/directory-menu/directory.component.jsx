@@ -1,12 +1,14 @@
 import React from 'react';
 import './directory.styles.scss';
 import MenuItem from '../menu-item/menu-item.component';
+// import SECTIONS_DATA from '../../../public/sections.data';
 
 class Directory extends React.Component {
     constructor() {
         super();
         this.state={
             sections : [
+              // SECTIONS_DATA
                 {
                     title: 'hats',
                     imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
