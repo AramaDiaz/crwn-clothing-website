@@ -8,6 +8,7 @@ import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 import { connect } from 'react-redux';
 import { setCurrentUser } from './redux/user/user.actions';
 import './App.css';
+import CartDropdown from './components/cart-dropdown/cart-dropdown.component';
 
 class App extends React.Component {
   
@@ -58,6 +59,7 @@ class App extends React.Component {
                 }
 
             />
+            {/* <Route path='/mycart' component={CartDropdown} /> */}
           </Switch>
       </div>
     );
