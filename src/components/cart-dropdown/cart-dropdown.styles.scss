@@ -10,16 +10,12 @@
   top: 90px;
   right: 40px;
   z-index: 5;
-  ::-webkit-scrollbar {
-    display: none;
-  }
-
+  
   .cart-items {
     height: 450px;
     display: flex;
     flex-direction: column;
-    overflow-y: scroll;
-    // overflow: auto;
+    overflow: auto;
   }
 
   button {
