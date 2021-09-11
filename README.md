@@ -1,13 +1,12 @@
 # crwn-clothing-website
-Clothing shop e-commerce webpage built with React, using Firebase for authentication and Firestore database , with Stripe payments implemented, deployed with Heroku
-CRWN Clothing
-Full Stack E-Commerce App built with React, using Firebase and Stripe API, deployed with Heroku
+Full Stack E-Commerce App built with React, using Firebase and Stripe API, deployed with Heroku.
 
-To view the app, visit: http://crwn-store.herokuapp.com/
+To view the app, visit: crwn-universe.herokuapp.com/
 
 Table of Contents
 Technologies
 Work In Progress
+
 Future Updates
 Technologies
 React.js (Front-end)
