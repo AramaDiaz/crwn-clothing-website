@@ -25,6 +25,7 @@ To view the app, visit: <a href="https://crwn-universe.herokuapp.com/">crwn-univ
 <li>Create an account or Sign In with Google</li>
 <li>Sign In</li>
 <li>Add items to cart</li>
+<li>Adjust item/ items quantity </li>
 <li>Remove item/items from cart</li>
 <li>Responsive design</li>
 <li>Load/Update data asynchronously using Firebase</li>
