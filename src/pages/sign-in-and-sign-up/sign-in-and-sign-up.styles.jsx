@@ -13,7 +13,6 @@ export const SignInSignUpContainer = styled.div`
 
         > *:first-child {
             margin-bottom: 50px;
-            margin: 0 auto;
         }
     }
 `;
