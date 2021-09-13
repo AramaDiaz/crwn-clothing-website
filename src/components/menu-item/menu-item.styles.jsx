@@ -36,6 +36,16 @@ export const MenuItemContainer = styled.div`
       margin-left: 7.5px;
       height: 480px;
     }
+
+    @media screen and (max-width: 800px) {
+      height: 320px;
+      &:nth-last-child(2) {
+        height: 320px;
+      }
+      &:last-child {
+        height: 320px;
+      }
+    }
 `;
 
 export const BackgroundImageContainer = styled.div`
