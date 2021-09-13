@@ -39,8 +39,13 @@ export const OptionsContainer = styled.div`
 `;
 
 export const OptionLink = styled(Link)`
-padding: 10px 15px;
-      cursor: pointer;
-      font-size: larger;
-      font-weight: bolder;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bolder;
+    @media screen and (max-width: 800px) {
+      padding: 5px 5px;
+      font-size: small;
+      font-weight: light;
+    }
 `;

@@ -22,8 +22,8 @@ export const ItemsContainer = styled.div`
     }
 
     @media screen and (max-width: 800px) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
     }
 `;

@@ -31,11 +31,10 @@ export const CollectionItemContainer = styled.div`
         }
       }
     }
-  
 `;
 
 export const AddButton = styled(CustomButton)`
-    width: 60%;
+    width: 70%;
     opacity: 0.7;
     position: absolute;
     top: 380px;
@@ -43,12 +42,14 @@ export const AddButton = styled(CustomButton)`
     font-size: large;
 
     @media screen and (max-width: 800px) {
+      /* height: auto; */
       display: block;
       opacity: 0.9;
       min-width: unset;
-      padding: 0 10px;
+      padding: 0 5px;
       top: 250px;
-      font-size: medium;
+      font-size: 15px;
+      width: 80%;
     }
 `;
 
@@ -67,6 +68,10 @@ export const CollectionFooterContainer = styled.div`
     display: flex;
     justify-content: space-between;
     font-size: 18px;
+    @media screen and (max-width: 800px) {
+      font-size: 15px;
+      width: 95%;
+    }
 `;
 
 export const NameContainer = styled.span`

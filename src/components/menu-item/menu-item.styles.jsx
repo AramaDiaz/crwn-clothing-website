@@ -29,21 +29,21 @@ export const MenuItemContainer = styled.div`
     }
 
     &:nth-last-child(2) {
-      height: 480px;
+      height: 360px;
     }
   
     &:last-child {
       margin-left: 7.5px;
-      height: 480px;
+      height: 360px;
     }
 
     @media screen and (max-width: 800px) {
-      height: 320px;
+      height: 250px;
       &:nth-last-child(2) {
-        height: 320px;
+        height: 250px;
       }
       &:last-child {
-        height: 320px;
+        height: 250px;
       }
     }
 `;
@@ -67,6 +67,10 @@ export const ContentContainer = styled.div`
     background-color: white;
     opacity: 0.7;
     position: absolute;
+    @media screen and (max-width: 800px) {
+      padding: 0 10px;
+      height: 80px;
+    }
 `;
 
 export const ContentTitle = styled.h1`
@@ -75,9 +79,15 @@ export const ContentTitle = styled.h1`
     margin-bottom: 6px;
     font-size: 25px;
     color: #4a4a4a;
+    @media screen and (max-width: 800px) {
+      font-size: 20px;
+    }
 `;
 
 export const ContentSubtitle = styled.span`
     font-weight: lighter;
     font-size: 18px;
+    @media screen and (max-width: 800px) {
+      font-size: 15px;
+    }
 `;
